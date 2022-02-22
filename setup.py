@@ -103,7 +103,7 @@ def get_extensions():
     return ext_modules
 
 
-def get_model_zoo_configs() -> List[str]:
+def get_model_zoo_configs():
     """
     Return a list of configs to include in package for model zoo. Copy over these configs inside
     detectron2/model_zoo.
